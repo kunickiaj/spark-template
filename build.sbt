@@ -1,4 +1,4 @@
-name := "spark-app""
+name := "spark-app"
 
 version := "0.0.1-dev"
 
@@ -13,7 +13,7 @@ val SparkVersion = "1.4.1"
 libraryDependencies ++= Seq(
     "org.apache.spark"   %% "spark-core"    % SparkVersion % "provided",
     "org.apache.spark"   %% "spark-mllib"   % SparkVersion % "provided",
-    "com.github.scopt"   %% "scopt"         % "3.2.0",
+    "com.github.scopt"   %% "scopt"         % "3.2.0"
 )
 
 packAutoSettings
